@@ -1,0 +1,34 @@
+@import '~bootstrap-less-port/less/bootstrap.less';
+/*
+
+^ Always rebuilds styles, despite only `index.js` being changed.
+
+    Hash: 8b4c0bd2007360908348
+    Version: webpack 4.43.0
+    Time: 1366ms
+    Built at: 06/06/2020 9:40:41 PM
+    Asset     Size  Chunks             Chunk Names
+    main.js  201 KiB    main  [emitted]  main
+    Entrypoint main = main.js
+    [./src/index.js] 51 bytes {main} [built]
+    [./src/styles.less] 184 KiB {main} [built]
+        + 1 hidden module
+
+*/
+
+//@import '../node_modules/bootstrap-less-port/less/bootstrap.less';
+/*
+
+^ When changing `index.js` only `index.js` gets rebuilt.
+
+    Hash: 9a85401a4a1d8ef3f474
+    Version: webpack 4.43.0
+    Time: 24ms
+    Built at: 06/06/2020 9:39:46 PM
+    Asset     Size  Chunks             Chunk Names
+    main.js  200 KiB    main  [emitted]  main
+    Entrypoint main = main.js
+    [./src/index.js] 49 bytes {main} [built]
+        + 2 hidden modules
+
+*/

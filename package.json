@@ -1,0 +1,17 @@
+{
+  "name": "test-webpack-watch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lukáš Novotný",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-less-port": "^2.3.1",
+    "modern-normalize": "^0.6.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "less-loader": "^6.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
